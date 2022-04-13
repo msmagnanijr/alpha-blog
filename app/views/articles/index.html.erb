@@ -1,0 +1,22 @@
+<h1> Articles Listing Page </h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% @articles.each do |article| %>
+        <tr>
+            <td><%= article.title %></td>
+            <td><%= article.description %></td>
+            <td>
+                <a href="/articles/<%= article.id %>">Show</a>
+                <a href="/articles/<%= article.id %>/edit">Edit</a>
+            </td>
+        </tr>
+        <% end %>
+</table>
