@@ -1,0 +1,33 @@
+@import "bootstrap/dist/css/bootstrap.css";
+
+//.navbar {
+//    background-color: rgb(153, 86, 86);
+//    border-bottom: 1px solid #000;
+//}
+
+//#logo {
+//color: #86D3E4;
+//}
+
+#home-container {
+    margin-top: 25px;
+}
+
+#home-container-inside {
+    background-image: asset-url('keyboard.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#page-content {
+    flex: 1 0 auto;
+    background-color: lightgray;
+}
