@@ -9,4 +9,4 @@ Alpha blog is a web application developed to exercise new features present in Ru
 
 ## Articles Page
 
-![](blog-images/artciles.png)
+![](blog-images/articles.png)
